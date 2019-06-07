@@ -1,0 +1,116 @@
+            
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.2;
+		
+}
+
+body {
+    background: #DCDCDC;
+}
+
+a:focus {
+    outline: none;
+}
+.content {
+    margin: 30px;
+	
+}
+.clearfix:after {
+    content: '.';
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* Abas */
+.tabs-content {
+    background: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin:10px auto;
+	width:980px;
+	min-height:40px;
+	 
+}
+
+/* Menu das abas */
+.tabs-menu {
+    display: block;
+    background: #0074a2;
+    font-size:11px;
+}
+.tabs-menu ul {
+    list-style: none;
+    display: block;
+}
+.tabs-menu ul li {
+    float: left;
+}
+.tabs-menu ul li a {
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #fff;
+    background-color: #0074a2;
+}
+.tabs-menu ul li ul{
+    position: absolute;
+    display: none;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    background-color: white;
+}
+.tabs-menu ul li ul li .activesubtab{
+    display: block;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    background-color: white;
+}
+.tabs-menu ul li a.active-tab-menu {
+    background: white;
+    color: #000;
+}
+
+/* Conteúdo das abas */
+.tabs {
+    display: none;
+    padding: 30px;
+    font-size:18px;
+    margin:80px
+}
+.subtabs {
+    display: none;
+    padding: 30px;
+    font-size:18px;
+}
+.first-tab {
+    display: block;
+}
+
+.figure {
+  font-style: italic;
+  font-size:15px;
+ }
+ 
+.footer {
+	display:block;
+    clear: both;
+    width: 980px;
+    margin: 0 auto;
+    font-size: 0.75em;
+    text-align: center;
+   
+    padding: 5px;
+	font-family: sans-serif;
+}
